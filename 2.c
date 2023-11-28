@@ -12,7 +12,7 @@ int main()
     int soma = 0;
     float media[2]; // vetor da média
 
-    for (i = 0; i < 1; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("Digite o nome do aluno: ");//coletar nomes
         gets(aluno[i]);
@@ -31,11 +31,11 @@ int main()
     }
 
     // Calculate and display the average grade for each student
-    for (i = 0; i < 1; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("\nNome do aluno: %s", aluno[i]);//exibir nomes dos alunos
 
-        for (j = 0; j < 2; j++)
+        for (j = 0; j < 3; j++)
         {
             printf("\nNota do aluno: %.1f", notas[i][j]);//exibir notas
         }
