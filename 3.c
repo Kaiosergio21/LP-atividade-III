@@ -2,7 +2,7 @@
 
 int main() {
     int i, opcao;
-    char contatos[3][50]; 
+    char contatos[10][5000]; 
     int count;
 
 printf("quantidade de memória");
