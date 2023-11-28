@@ -6,9 +6,9 @@ int main()
 {
     setlocale(LC_ALL, "pt_PT");
 
-    float notas[2][2];//matrix para  notas,númmero de linhas e número de colunas
+    float notas[3][2];//matrix para  notas,númmero de linhas e número de colunas
     int i, j;//i linha j coluna
-    char aluno[2][1000];//metrix para vetores
+    char aluno[5][1000];//metrix para vetores
     int soma = 0;
     float media[2]; // vetor da média
 
